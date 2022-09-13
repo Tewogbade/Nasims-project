@@ -1,32 +1,95 @@
-#first-carousel-slide {
-  padding: 13rem 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/Photos/hero.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#second-carousel-slide {
-  padding: 13rem 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/Photos/image2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#third-carousel-slide {
-  padding: 13rem 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/Photos/hero3.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+body {
+  padding: 0 1rem;
 }
 
-#second-c {
+@media (max-width: 767px) {
+  #first-carousel-slide {
+    color: #ffff;
+    padding: 13rem 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #second-carousel-slide {
+    color: #ffff;
+    padding: 13rem 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #third-carousel-slide {
+    color: #ffff;
+    padding: 13rem 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/Photos/hero3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #second-c {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #carousel-inner {
+    text-align: start;
+  }
+  .logo-text {
+    padding: 10rem 5rem 0;
+    background-color: #fffbf6;
+  }
+  .logo-text1 {
+    padding: 10rem 5rem 0;
+    background-color: #f2fcf9;
+  }
+  .logo-text2 {
+    padding: 10rem 5rem 0;
+    background-color: #f8f0ee;
+  }
+  #cards {
+    gap: 6rem;
+  }
+}
+#aboutpagetop {
+  color: #ffff;
   margin: auto;
+  padding: 15rem 10rem;
+  height: 15rem;
   text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Photos/about1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#programs-artice {
+  background-color: #fffbf6;
+  padding: 10rem 0rem;
+}
+/* News page */
+.first-bg {
+  background-color: #f9ecdc;
+  height: 25rem;
+  color: #000;
+}
+
+#heading-01 {
+  padding-top: 13rem;
+}
+
+p {
+  line-height: 3rem;
+}
+#contactpage {
+  padding: 8rem 25rem;
 }
